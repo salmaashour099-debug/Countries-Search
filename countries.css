@@ -1,0 +1,39 @@
+.form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: none;
+}
+
+.container .country-info{
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    border: 1px solid #eee;
+}
+
+.error-message{
+    color: rgb(245, 90, 90);
+    font-size: 16px;
+    text-align: center;
+}
+
+
+.country-card{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 30px;
+    align-items: center;
+}
+
+.country-flag{
+    width:100%;
+    border-radius: 5px;
+}
+
+.country-details{
+    text-align: start;
+}
+
+.detail-label{
+    font-weight: bold;
+}
+
